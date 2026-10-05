@@ -1,0 +1,35 @@
+# Proyecto ajeno (PS3)
+GR33N/
+
+# Android
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+out/
+release/
+
+# Gradle
+.gradle/
+build/
+local.properties
+gradle-app.setting
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Logs
+*.log
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Python (por si acaso)
+__pycache__/
+*.pyc

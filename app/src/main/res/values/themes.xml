@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.FstlyGallery" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/fstly_primary</item>
+        <item name="colorSecondary">@color/fstly_secondary</item>
+        <item name="android:colorBackground">@color/fstly_bg_deep</item>
+        <item name="colorSurface">@color/fstly_surface</item>
+        <item name="android:textColorPrimary">@color/fstly_text</item>
+        <item name="android:statusBarColor">@color/fstly_bg_deep</item>
+        <item name="android:navigationBarColor">@color/fstly_bg_deep</item>
+        <item name="android:windowAnimationStyle">@style/FstlyWindowAnimation</item>
+    </style>
+
+    <style name="FstlyWindowAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/fstly_fade_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/fstly_fade_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/fstly_fade_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/fstly_fade_out</item>
+    </style>
+</resources>

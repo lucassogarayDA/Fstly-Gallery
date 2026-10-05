@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fstly_bg_deep">#0D0D1F</color>
+    <color name="fstly_surface">#1A1A2E</color>
+    <color name="fstly_primary">#9D4EDD</color>
+    <color name="fstly_secondary">#7B2FBE</color>
+    <color name="fstly_text">#F5F5F5</color>
+    <color name="fstly_accent">#C77DFF</color>
+</resources>
